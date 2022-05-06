@@ -1,0 +1,31 @@
+#carCanvas {
+    background: lightgray;
+    float:left
+}
+
+#verticalButtons{
+    display: flex;
+    flex-direction: column;
+    float:left
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#verticalButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+button:hover{
+    background: blue;
+}
+
+#networkCanvas {
+    background: black;
+}
